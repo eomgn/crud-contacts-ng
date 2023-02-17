@@ -1,0 +1,16 @@
+mat-form-field {
+  width: 100%;
+}
+
+.form {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.actions > button {
+  margin-left: 1rem;
+}
+
+.mat-mdc-raised-button[disabled] {
+  color: #42424244;
+  background-color: #42424225;
+}

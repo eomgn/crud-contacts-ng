@@ -1,0 +1,22 @@
+.create {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: aqua;
+}
+
+mat-list-item a {
+  color: #424242;
+}
+
+mat-list-item:hover {
+  background-color: #4242420c;
+}
+
+:host {
+  display: block;
+  padding-bottom: 40rem;
+}

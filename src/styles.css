@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: transparent;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: #7b1fa2;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+  color: #424242;
+}
